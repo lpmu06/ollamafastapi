@@ -22,12 +22,13 @@ This project implements a chatbot assistant that can:
 
 The project uses Docker Compose to run the required services. Basic commands:
 
-docker compose up --build		            # To create and run the docker compose
+docker compose up --build		            - To create and run the docker compose
 
 # To verify if the container and the model are running.
-docker ps -a		                        # To see the containers
-docker exec -it "nome_do_container" bash	# To enter the container
-ollama list                                 # To see the models (execute command inside the container)
+
+docker ps -a		                        - To see the containers
+docker exec -it "nome_do_container" bash	- To enter the container
+ollama list                                 - To see the models (execute command inside the container)
 
 
 # To access the API
@@ -39,7 +40,7 @@ http://localhost:8000/ask?prompt="Insert your question here"  #Without quotes ""
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-Em português:
+# Em português:
 
 Um assistente conversacional construído com FastAPI e LangChain que ajuda os usuários com tarefas de registro e configuração.
 
@@ -67,10 +68,13 @@ O projeto usa Docker Compose para executar os serviços necessários. Comandos b
 
 docker compose up --build		            # Para criar e rodar o docker compose
 
-# Para verificar se o contêiner e o modelo estão em execução.
-docker ps -a		                        # Para ver os contêineres
-docker exec -it "nome_do_container" bash	# Para entrar no contêiner
-ollama list                                 # Para ver os modelos (execute o comando dentro do contêiner)
+- Para verificar se o contêiner e o modelo estão em execução.
+
+docker ps -a		                        - Para ver os contêineres
+
+docker exec -it "nome_do_container" bash	- Para entrar no contêiner
+
+ollama list                                 - Para ver os modelos (execute o comando dentro do contêiner)
 
 
 # Para acessar a API
