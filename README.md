@@ -35,7 +35,7 @@ http://localhost:8000/
 http://localhost:8000/docs
 
 # To ask a question directly
-http://localhost:8000/ask?prompt="Olá, como vai?"  #Without quotes ""
+http://localhost:8000/ask?prompt="Insert your question here"  #Without quotes ""
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,4 +78,4 @@ http://localhost:8000/
 http://localhost:8000/docs
 
 #Para realizar uma pergunta diretamente
-http://localhost:8000/ask?prompt="Olá, como vai?"  #Sem aspas ""
+http://localhost:8000/ask?prompt="Insira aqui sua pergunta"  #Sem aspas ""
