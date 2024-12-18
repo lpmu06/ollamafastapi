@@ -13,7 +13,7 @@ def ask(prompt: str):
         'prompt': prompt,
         'stream': False,
         'model': 'phi3',
-        'max_tokens': 1000,
+        'max_tokens': 500,
         'temperature': 0.5
         #'top_p': 0.9,
         #'top_k': 50,
