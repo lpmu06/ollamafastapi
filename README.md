@@ -1,4 +1,5 @@
 A conversational AI assistant built with FastAPI and LangChain that helps users with registration and configuration tasks.
+In development.
 
 ## Overview
 
@@ -19,9 +20,13 @@ This project implements a chatbot assistant that can:
 ## Getting Started
 
 The project uses Docker Compose to run the required services. Basic commands:
+
 docker compose up --build		            # Para rodar o docker compose
+
 docker ps -a		                        # Para ver os containers
+
 docker exec -it "nome_do_container" bash	# Para entrar no container
+
 ollama list                                 # Para ver os modelos (executar comando dentro do container)
 
 
