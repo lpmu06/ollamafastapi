@@ -20,23 +20,33 @@ This project implements a chatbot assistant that can:
 
 ## Getting Started
 
-The project uses Docker Compose to run the required services. Basic commands:
+The project uses Docker Compose to run the required services. 
 
-docker compose up --build		            - To create and run the docker compose
+### Basic commands:
 
-# To verify if the container and the model are running.
+To create and run the docker compose
 
-docker ps -a		                        - To see the containers
-docker exec -it "nome_do_container" bash	- To enter the container
-ollama list                                 - To see the models (execute command inside the container)
+- docker compose up --build		            
+
+To verify if the container and the model are running.
+
+- docker ps -a		                        
+
+To enter the container
+
+- docker exec -it "nome_do_container" bash	
+
+To see the models (execute command inside the container)
+
+- ollama list                                
 
 
-# To access the API
+### To access the API
 http://localhost:8000/
 http://localhost:8000/docs
 
-# To ask a question directly
-http://localhost:8000/ask?prompt="Insert your question here"  #Without quotes ""
+### To ask a question directly
+http://localhost:8000/ask?prompt="Insert your question here"  (Without quotes "")
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -64,22 +74,34 @@ Este projeto implementa um assistente conversacional que pode:
 
 ## Iniciando
 
-O projeto usa Docker Compose para executar os serviços necessários. Comandos básicos:
+O projeto usa Docker Compose para executar os serviços necessários. 
 
-docker compose up --build		            # Para criar e rodar o docker compose
+### Comandos básicos:
 
-- Para verificar se o contêiner e o modelo estão em execução.
+Para criar e rodar o docker compose: 
 
-docker ps -a		                        - Para ver os contêineres
-
-docker exec -it "nome_do_container" bash	- Para entrar no contêiner
-
-ollama list                                 - Para ver os modelos (execute o comando dentro do contêiner)
+- docker compose up --build		            
 
 
-# Para acessar a API
+Para verificar se o contêiner e o modelo estão em execução.
+
+- docker ps -a		                        
+
+Para entrar no contêiner
+
+- docker exec -it "nome_do_container" bash	
+
+Para ver os modelos (execute o comando dentro do contêiner)
+
+- ollama list                                
+
+
+### Para acessar a API
+
 http://localhost:8000/
+
 http://localhost:8000/docs
 
-#Para realizar uma pergunta diretamente
-http://localhost:8000/ask?prompt="Insira aqui sua pergunta"  #Sem aspas ""
+### Para realizar uma pergunta diretamente
+
+http://localhost:8000/ask?prompt="Insira aqui sua pergunta"  (Sem aspas "")
